@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="styleExperience.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Experience</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Experience</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="work.html" onclick="toggleMenu()">Work</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="Education">
+        <div class="pink"></div>
+        <div class="educationText">
+            <h1>Education</h1>
+            <h2>Georgia Institute of Technology 2021-2025</h2>
+            <h3 class="h3.1">Major: BSc in Mathematics</h3>
+            <p class="majorP">I am currently pursuing my undergraduate degree in mathematics, where my studies focus on various applications in physics and computer science. I explore concepts such as combinatorics, calculus, linear algebra, physics, and machine learning. I enjoy problem-solving and consider myself a quick thinker. </p>
+            <h3 class="h3.2">Minor: Industrial Design</h3>
+            <p class="minorP">I am currently working towards a minor in industrial design, studying user experience and product design while emphasising on essential design techniques.</p>
+        </div>
+    </section>
+    <section id="Internships">
+        <div class="blue"></div>
+        <div class="internText">
+            <h1>Internships</h1>
+            <h2>Allianz UK</h2>
+            <h3>2022</h3>
+            <p class="p1">Interned over the summer of 2022 at Allianz UK’s head office in London. Navigated the London insurance market, met with brokers at Lloyds London, and developed skills in Excel, research, underwriting, and business development.</p>
+            <p class="p2">I created an Excel Macro system that ran operations data for every office across England. Impressing the chief of operations I presented my findings to top executives.</p>
+        </div>
+    </section>
+    <section id="Service">
+        <div class="orange"></div>
+        <div class="serviceText">
+            <h1>Customer Service</h1>
+            <h2 class="Print">Print Studio</h2>
+            <h3>2023</h3>
+            <p class="textP">I currently work in the Georgia Tech Media Scholarship Commons Print Studio. My role is to assist with poster printing, printer issues, stocking supplies & customer service. This position has honed my ability to help and attentively listen to others, encouraging a collaborative approach to work.</p>
+            <h2 class="LRG">Last Resort Grill</h2>
+            <h3>2021-2022</h3>
+            <p class="textL">In my role as a food runner at Last Resort Grill, a bustling restaurant in Athens, I showcased robust teamwork and communication skills while efficiently managing tasks such as running food, food preparation, hosting, and serving. Adapting to diverse responsibilities across various departments, I navigated multiple tasks and concurrent sales, improving my multitasking skills. Patience was valuable when attending to customers in this high-stress environment.</p>
+            <h2 class="PH">Poor Hendrix</h2>
+            <h3>2018-2021</h3>
+            <p class="textPH">During my three-year tenure with the restaurant Poor Hendrix, I took on diverse roles as a hostess, food runner, and assistant to the head chef. Working with a team of four chefs and overseeing the hosting process for a customer turnover of 300, I cultivated skills in conflict resolution.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="first">Get in touch</p>
+        <p class="title">Contact Me</p>
+        <div class="upperContainer">
+            <div class="contactContainer">
+                <img src="./Assets/download-1.png" alt="email tab" class="contact tab">
+                <p><a href="mailto:effiektenidis@gmail.com">effiektenidis@gmail.com</a></p>
+                <img src="./Assets/linkedin-logo-3.png" alt="My LinkedIn" class="tab" onclick="window.open('https://linkedin.com/in/effiektenidis/')">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

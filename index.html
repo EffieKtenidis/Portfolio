@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Effie ktenidis</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Effie ktenidis</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="work.html" onclick="toggleMenu()">Work</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <h1>WEL</h1>
+    <h2>COME</h2>
+    <section id="contact">
+        <p class="p1">Get in touch</p>
+        <p class="title">Contact Me</p>
+        <div class="upperContainer">
+            <div class="contactContainer">
+                <img src="./Assets/download.png" alt="email icon" class="contact icon">
+                <p><a href="mailto:effiektenidis@gmail.com">effiektenidis@gmail.com</a></p>
+                <img src="./Assets/linkedin-logo-3.png" alt="My LinkedIn" class="icon" onclick="window.open('https://linkedin.com/in/effiektenidis/')">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

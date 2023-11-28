@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styleAbout.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">About Me</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Effie ktenidis</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="work.html" onclick="toggleMenu()">Work</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/" alt="Effie profile picture">
+        </div>
+        <div class="section__text">
+            <h1>Hi I'm</h1>
+            <h2>Effie</h2>
+            <div class="btn-container">
+                <button class="btn btn-colour" onclick="window.open('./Assets/WebCV.pdf')">Download CV</button>
+                <img src="./Assets/LinkedIn_Logo.svg.png" alt="My LinkedIn" class="icon" onclick="window.open('https://linkedin.com/in/effiektenidis/')">
+            </div>
+        </div>
+    </section>
+    <section id="context">
+        <p class="text1">
+            I am a university student studying mathematics, computer science, and design. Born in the UK and later relocating to the United States, I'm used to adapting and embracing alternatives. I am a dual citizen and this has shaped me into the open-minded individual I am today.
+        </p>
+        <p class="text2">
+            My childhood passion for coding and geometry has evolved into a profound love for mathematics. My interests lie in the intersections of maths and design and the applications of this to robotics, user interfaces, product design and architecture. Recently I have pursued studies in industrial design and started focusing on the artistic side of my interests.
+        </p>
+        <p class="text3">
+            Moving forward I am eager to help innovate and design. Currently exploring opportunities aligned with my interests, I aim to collaborate with a diverse, supportive, and motivated team from which I can gain valuable insights.
+        </p>
+    </section>
+    <section id="contact">
+        <p class="p1">Get in touch</p>
+        <p class="title">Contact Me</p>
+        <div class="upperContainer">
+            <div class="contactContainer">
+                <img src="./Assets/download-1.png" alt="email tab" class="contact tab">
+                <p><a href="mailto:effiektenidis@gmail.com">effiektenidis@gmail.com</a></p>
+                <img src="./Assets/linkedin-logo-3.png" alt="My LinkedIn" class="tab" onclick="window.open('https://linkedin.com/in/effiektenidis/')">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
